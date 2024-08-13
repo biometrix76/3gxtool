@@ -1,0 +1,7 @@
+build/
+*.exe
+*.3gx
+*.elf
+*.plgInfo
+release/
+.DS_Store

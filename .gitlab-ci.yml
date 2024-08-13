@@ -1,0 +1,16 @@
+stages:
+  - build
+build:
+  image: rikorose/gcc-cmake
+  stage: build
+  only:
+    - master
+    - merge_requests
+  script:
+    - mkdir build
+    - cd build
+    - cmake .. && cmake --build .
+  artifacts:
+    paths:
+      - build/3gxtool
+    expire_in: 1 hour

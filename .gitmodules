@@ -1,0 +1,6 @@
+[submodule "yaml-cpp"]
+	path = extern/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+[submodule "extern/dynalo"]
+	path = extern/dynalo
+	url = https://github.com/maddouri/dynalo.git
